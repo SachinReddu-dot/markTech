@@ -9,7 +9,7 @@ const ContactSection = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
                         <label className="block text-left text-lg font-semibold">Full Name</label>
-                        <input type="text" name="name" className="w-full bg-zinc-800 outline-none p-3 rounded-lg mt-2" placeholder="John Doe" required />
+                        <input type="text" name="name" className="w-full bg-zinc-800 outline-none p-3 rounded-lg mt-2" placeholder="Enter Name" required />
                     </div>
                     <div>
                         <label className="block text-left text-lg font-semibold">Email Address</label>

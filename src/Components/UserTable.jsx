@@ -25,7 +25,7 @@ const UserTable = () => {
     <div className="container mx-auto p-8">
         <h1 className="text-3xl font-semibold mb-6 text-center">User Information</h1>
         <div className='w-full flex justify-center my-5'>
-            <input onChange={(e)=> setSearch(e.target.value)} value={search} placeholder='Search by Username' className='capitalize w-1/2 p-3 bg-zinc-800 rounded-xl outline-none' type='text'/>
+            <input onChange={(e)=> setSearch(e.target.value)} value={search} placeholder='Search by Username' className='capitalize w-1/2 p-3 bg-zinc-800 rounded-xl outline-none max-sm:w-full' type='text'/>
         </div>
         <div className="overflow-x-auto">
             <table className="min-w-full table-auto overflow-hidden rounded-xl">

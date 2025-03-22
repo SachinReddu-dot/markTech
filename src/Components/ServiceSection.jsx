@@ -5,7 +5,7 @@ const ServiceSection = () => {
     <>
         <section id="services" className="py-16 text-center">
             <h2 className="text-3xl sm:text-4xl font-bold mb-12">Our Services</h2>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-sm:px-3">
                 {/* <!-- Service Card 1 --> */}
                 <div className="bg-zinc-800 p-6 rounded-lg shadow-lg transition-all duration-300 hover:-translate-y-5">
                     <h3 className="text-xl sm:text-2xl font-semibold mb-4">Web Development</h3>

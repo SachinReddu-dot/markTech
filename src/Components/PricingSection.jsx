@@ -7,7 +7,7 @@ const PricingSection = () => {
     <section id="pricing" className="bg-zinc-800 py-16">
         <div className="text-center">
             <h2 className="text-3xl sm:text-4xl font-bold mb-12">Our Pricing</h2>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 max-sm:px-5 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {/* <!-- Basic Plan --> */}
                     <div class="card">
                     <div class="card-content-wrapper">
