@@ -4,3 +4,157 @@ body{
   background-color: black;
   color: white;
 }
+
+
+/* getsatartedUI Button*/
+/* From Uiverse.io by JaydipPrajapati1910 */ 
+.cssbuttons-io-button {
+  background: #0000FF;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #0000FF;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #0000FF;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #0000FF;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+
+
+/* PRICING SECTION CARD  */
+/* From Uiverse.io by andrew-demchenk0 */ 
+.card {
+  --main-focus: #2d8cf0;
+  --font-color: #fefefe;
+  --font-color-sub: #7e7e7e;
+  --bg-color: #111;
+  --main-color: #fefefe;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 350px;
+  background: var(--bg-color);
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content-wrapper {
+  transform: translateY(10px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transition: all 0.7s;
+}
+
+.card-title {
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--font-color);
+}
+
+.card-price {
+  letter-spacing: 2px;
+  font-size: 25px;
+  color: var(--font-color);
+  font-weight: 700;
+}
+
+.card-price span {
+  font-size: 18px;
+  color: var(--font-color-sub);
+  font-weight: 500;
+}
+
+.card-subtitle {
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: var(--main-focus);
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.card-benefits {
+  font-size: 18px;
+  padding-left: 20px;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.card-btn {
+  cursor: pointer;
+  width: 300px;
+  padding: 5px;
+  background: var(--main-focus);
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  transform: translateY(30px);
+  color: var(--bg-color);
+  font-weight: 500;
+  font-size: 16=7px;
+  letter-spacing: 0.7px;
+  opacity: 0;
+  transition: all 0.7s;
+}
+
+.card:hover > .card-btn {
+  opacity: 1;
+  transform: translateY(17px);
+}
+
+.card-btn:hover {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card:hover > .card-content-wrapper {
+  transform: translateY(5px);
+}
+
+
